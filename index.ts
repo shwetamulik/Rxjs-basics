@@ -35,6 +35,7 @@ import {
   filter,
   bufferWhen,
 } from 'rxjs/operators';
+import './pipeableOperators';
 
 const observer = {
   next: (val) => console.log('next', val),
